@@ -1,3 +1,162 @@
+* { border: 1px solid red; }
+
+body{
+    font: 24px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
     background-color: bisque;
+    padding: 20px;
+    
+}
+.h1 {
+    display: inline-block;
+    font-size: 48px;
+    color: white;
+    text-shadow:-1px 1px 2px black;
+    
+}
+
+nav{
+    /* position: relative; */
+    float: right;
+    padding: 20px;
+    /* color: white; */
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin-right: 10px;
+    pointer-events: painted;
+}
+
+a:hover{
+    color: grey;
+}
+
+a:active{
+    text-shadow: 1px 1px 2px rgb(241, 182, 175);
+}
+.background-img{
+    height: 400px;
+    width: auto;
+    background-image: url(../jr/jr-Radial-Lines.png);
+    background-size: 120%;
+    background-position-y: 20%;
+    background-position-x: 12%;
+    /* transform: rotate(90deg); */
+}
+
+.div-1{
+    background-color: rgb(241, 182, 175);
+    padding: 60px 100px 60px 100px;
+    text-align: center;
+
+}
+
+h2{
+    font-size: 36px;
+    color: white;
+    text-shadow:-1px 1px 2px black;
+    margin-bottom: 10px;
+}
+.profile{
+    min-width: 250px;
+    max-width: 250px;
+    max-height: 300px;
+    min-height: 300px;
+    float: left;
+    padding: 5px;
+    position: relative;
+    top: -90px;
+    left: -25px;
+    clear: both;
+    
+
+}
+
+/* #jr2{
+    max-width: 250px;
+    float: left;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+    min-height: 300px;
+    clear: both;
+
+} */
+
+.div-2{
+    background-color: beige;
+    padding: 35px 100px 35px 100px;
+    outline-color: rgb(226, 238, 156);
+    outline-style: solid;
+    outline-width: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.div-3{
+    background-color: bisque;
+    padding: 60px 100px 60px 100px;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(186, 167, 196);
+    padding: 60px 100px 60px 100px;
+    text-align: center;
+    
+}
+
+h3 {
+    font-size: 24px;
+    float: left;
+}
+
+#email{
+    text-decoration: underline;
+    margin: 20px;
+    line-height: 50px
+}
+
+.rotate-90{
+    /* -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg); */
+    object-fit: ;
+
+    /* width: 250px;
+    height: 300px; */
+    width: 350px;
+    height: 300px;
+    margin-right: 50px;
+    
+
+    /* float: left;
+    padding: 5px;
+    position: relative;
+    top: -55px;
+    left: -50px; */
+    
+    /* clear: both; */
+}
+
+.crop{
+    height: 300px;
+    width: 250px;
+    overflow: hidden;
+    float: left;
+    padding: 5px;
+    position: relative;
+    top: -90px;
+    left: -30px;
+    clear: both;
 }
